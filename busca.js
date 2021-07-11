@@ -1,4 +1,4 @@
-var valores = [5, 8, 10, 22, 38, 45];
+var valores = [5, 8, 10, 22, 38, 45, 60, 90, 100, 120];
 
 function busca(num) {
     for (i=0; i<6 ; i++){
@@ -9,7 +9,24 @@ function busca(num) {
     return -1;
 }
 
-//usando busca//
-    
+function buscaBin() {
+    let inicio, fim;
+    let meio;
+    inicio = 0;
+    fim = 9;
+    while(inicio < fim) {
+        meio = (inicio + fim) / 2;
+        if (num == valores[meio]){
+            return meio;
+        }
+
+        else {
+            if (num > valor)
+        }
+
+    }
+
+}
+
 console.log(busca(10));
 console.log(busca(50));
