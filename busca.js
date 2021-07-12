@@ -21,7 +21,7 @@ function buscaBin() {
         }
 
         else {
-            if (num > valor)
+            if (num >)
         }
 
     }
